@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Links from './pages/Links';
+import Error from './pages/Error';
 
 function RoutesApp(){
     return(
@@ -14,6 +15,10 @@ function RoutesApp(){
                 <Route 
                     path='/links'
                     element={<Links/>}
+                />
+                <Route 
+                    path='*' /* Not  found */
+                    element={<Error/>}
                 />
             </Routes>
         </BrowserRouter> 
