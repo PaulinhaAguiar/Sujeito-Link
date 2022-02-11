@@ -6,7 +6,7 @@ import LinkItem from '../../components/LinkItem';
 import './links.css';
 
 export default function Links(){
-  const [myLinks, setMyLinks] = useState({});
+  const [myLinks, setMyLinks] = useState([{}]);
   const [data,setData] = useState({});
   const [showModal, setShowModal] = useState(false);
   const [emptyList, setEmptyList] = useState(false);
