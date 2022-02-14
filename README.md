@@ -4,7 +4,7 @@
     <img src='https://user-images.githubusercontent.com/69828625/153687862-ed0cbccb-7b3f-4cc7-a5eb-0aafe6525a12.png' width='100' />
 </div>
 <p>O Sujeito Link é uma aplicação que permite ao usuário encurtar os links fornecidos. <br>
-Ao colar o link desejado no campo disponível, o mesmo é encurtado, salvo e clicando-o é possível copiá-lo, sem precisar utilizar o famoso CTRL + C.  <br>
+Ao colar a URL desejado no campo disponível, a mesmo é encurtada, salva e clicando-a é possível copiá-la, sem precisar utilizar o famoso CTRL + C.  <br>
 A aplicação também conta com a opção de visualizar os links salvos e deletá-los, caso queira o usuário.</p>
 
 
@@ -16,12 +16,13 @@ A aplicação também conta com a opção de visualizar os links salvos e delet�
 
 ## Sobre o projeto
 
-<p>Este projeto foi desenvolvido através da Semana de ReactJS, realizada pelo Sujeito Programador.</p>
+<p>Este projeto foi desenvolvido através da Semana ReactJS, realizada pelo Sujeito Programador (Matheus Fraga).</p>
 <p>O intuito de participar deste evento era buscar novos conhecimentos em React.</p>
 <p>Canal do Sujeito Programador:</p>
 <a href='https://www.youtube.com/c/Sujeitoprogramador/videos'>
     <img src='https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white'>
 </a>
+<p>Neste projeto, foi utilizada a API da Bitly para o encurtamento das URLs e o armazenamento foi persistido de forma offline em Local Storage.</p>
 
 ## Resultado
 
